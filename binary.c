@@ -1,7 +1,6 @@
-// C program to implement iterative Binary Search
+//Binary Search
 #include <stdio.h>
  
-// An iterative binary search function.
 int binarySearch(int arr[], int l, int r, int x)
 {
     while (l <= r) {
@@ -20,7 +19,6 @@ int binarySearch(int arr[], int l, int r, int x)
             r = m - 1;
     }
  
-    // If we reach here, then element was not present
     return -1;
 }
  
