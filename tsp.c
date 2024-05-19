@@ -1,7 +1,6 @@
 #include <stdio.h>  
 #include <limits.h>  
 #include <string.h>
-
 #define MAX_N 15 
 
 int n;
